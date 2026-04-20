@@ -18,6 +18,6 @@ body {
     text-shadow: 0 0 10px black;
 }
 .h111:focus{
-    font-size: 10rem;
+    font-size: 11rem;
     transform: scale(1.2);
 }
