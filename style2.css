@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+    font-family: Arial, sans-serif;
+    display: flex;
+}
+.h111{
+    background: none;
+    border: none;
+    font-size: 10rem;
+    transition: 0.5s;
+}
+.h222{
+    color: white;
+    text-shadow: 0 0 10px black;
+}
+.h111:focus{
+    font-size: 10rem;
+    transform: scale(1.2);
+}
