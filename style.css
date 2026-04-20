@@ -1,6 +1,5 @@
 body {
     margin: 0;
-    width: 100%;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -15,9 +14,9 @@ body {
 
 .card {
     background: #fff;
-    padding: 1rem;
+    padding: 30px;
     border-radius: 25px;
-    width: 20rem;
+    width: 320px;
     box-shadow: 0 10px 30px rgba(0,0,0,0.2);
 }
 
@@ -29,8 +28,8 @@ h2 {
 
 input {
     width: 100%;
-    padding-bottom: 12px;
     padding-top: 12px;
+    padding-bottom: 12px;
     border-radius: 25px;
     border: 2px solid #ff9a9e;
     outline: none;
@@ -69,11 +68,4 @@ button:hover {
     font-size: 18px;
     color: #ff2e6e;
     display: none;
-}
-/* شكل الأيقونات على الكمبيوتر */
-.icon-box {
-  display: flex;
-  gap: 20px;
-  justify-content: center;
-  align-items: center;
 }
