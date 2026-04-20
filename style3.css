@@ -1,0 +1,157 @@
+body {
+  margin: 0;
+  font-family: "Cairo", sans-serif;
+  background: linear-gradient(180deg, #ff9aa2, #ffb7b2);
+  overflow: hidden;
+  height: 100vh;
+}
+
+/* الكارت */
+.card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  width: 80%;
+  max-width: 350px;
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+.card p {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #333;
+}
+
+button {
+  margin-top: 15px;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 25px;
+  background: #ff5e78;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+button:focus{
+    font-size: 1.2rem;
+}
+
+.heart {
+  position: relative;
+  width: 20px;
+  height: 18px;
+  animation-name: zzz;
+  animation-duration: 10s;
+}
+
+.ppp{
+    position: fixed;
+    bottom: -2rem;
+    left: 30px;
+    animation-duration: 4s;
+    animation-name: ppp;
+    animation-iteration-count: infinite;
+}
+@keyframes ppp{
+    0%{
+    }
+    100%{
+        height: 42rem;
+    }
+}
+.pp{
+    position: fixed;
+    bottom: -2rem;
+    left: 100px;
+    animation-duration: 9s;
+    animation-name: ppp;
+    animation-iteration-count: infinite;
+}
+.p{
+    position: fixed;
+    bottom: -2rem;
+    left: 450px;
+    animation-duration: 6.2s;
+    animation-name: ppp;
+    animation-iteration-count: infinite;
+}
+.ddd{
+    position: fixed;
+    bottom: -2rem;
+    left: 200px;
+    animation-duration: 10s;
+    animation-name: ppp;
+    animation-iteration-count: infinite;
+}
+.dd{
+    position: fixed;
+    bottom: -2rem;
+    left: 300px;
+    animation-duration: 6.1s;
+    animation-name: ppp;
+    animation-iteration-count: infinite;
+}
+.d{
+    position: fixed;
+    bottom: -2rem;
+    left: 350px;
+    animation-duration: 6.1s;
+    animation-name: ppp;
+    animation-iteration-count: infinite;
+}
+.p{
+    position: fixed;
+    bottom: -2rem;
+    left: 450px;
+    animation-duration: 7s;
+    animation-name: ppp;
+    animation-iteration-count: infinite;
+}
+.pppppp{
+    position: fixed;
+    bottom: -2rem;
+    left: 400px;
+    animation-duration: 8.5s;
+    animation-name: ppp;
+    animation-iteration-count: infinite;
+}
+.pppp{
+    position: fixed;
+    bottom: -2rem;
+    left: 150px;
+    animation-duration: 5.3s;
+    animation-name: ppp;
+    animation-iteration-count: infinite;
+}
+.qqq{
+    position: fixed;
+    bottom: -2rem;
+    left: 250px;
+    animation-duration: 7.8s;
+    animation-name: ppp;
+    animation-iteration-count: infinite;
+}
+.qq{
+    position: fixed;
+    bottom: -2rem;
+    left: 70px;
+    animation-duration: 5.9s;
+    animation-name: ppp;
+    animation-iteration-count: infinite;
+}
+.q{
+    position: fixed;
+    bottom: -2rem;
+    left: 330px;
+    animation-duration: 7s;
+    animation-name: ppp;
+    animation-iteration-count: infinite;
+}
+
+
