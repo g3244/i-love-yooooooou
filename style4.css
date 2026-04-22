@@ -1,0 +1,17 @@
+body {
+    height: 100vh;
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+    font-family: Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+.video{
+    margin-right: 10px;
+    width: 400px;
+    height: 400px;
+}
+h1 {
+    font-family: 'Pacifico', cursive;
+    color: #ff5c8a;
+    margin-bottom: 20px;
+}
