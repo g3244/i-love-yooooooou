@@ -10,9 +10,9 @@
 <body>
     <center><h1>🎀Our Memories</h1><br></center>
     <br><center><link rel="stylesheet" href="style4.css">
-    <video width="300" controls class="video" type="I Wanna Be Yours.mp4">
-        <source src="I Wanna Be Yours.mp4">
-    </video></center>
+    <video width="300px" border="20px" controls class="video">
+        <source src="video.mp4" type="video/mp4">
+    </video></center><br>
     <script>
         setTimeout(
             function () {
@@ -20,6 +20,67 @@
             }, 9000);
     </script>
     <script src="script.js"></script>
+
+    <br><center><div class="slider">
+
+    <div class="slide active">
+        <img src="img1.jpg">
+    </div>
+
+    <div class="slide">
+        <img src="img2.jpg">
+    </div>
+
+    <div class="slide">
+        <img src="img3.jpg">
+    </div>
+
+    <div class="arrow left" onclick="prevSlide()">❮</div>
+    <div class="arrow right" onclick="nextSlide()">❯</div>
+
+</div></center>
+
+<script>
+
+let slides = document.querySelectorAll(".slide");
+
+let current = 0;
+
+function showSlide(index){
+
+    slides.forEach(slide=>{
+        slide.classList.remove("active");
+    });
+
+    slides[index].classList.add("active");
+}
+
+function nextSlide(){
+
+    current++;
+
+    if(current >= slides.length){
+        current = 0;
+    }
+
+    showSlide(current);
+}
+
+function prevSlide(){
+
+    current--;
+
+    if(current < 0){
+        current = slides.length - 1;
+    }
+
+    showSlide(current);
+}
+
+setInterval(nextSlide,4000);
+
+</script>
+
 </body>
 </html>
 
