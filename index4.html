@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
 </head>
 <body>
-    <center><h1>🎀Our Memories</h1><br></center>
+    <center><h1 class="h1">🎀Our Memories</h1><br></center>
     <br><center><link rel="stylesheet" href="style4.css">
     <video width="300px" border="20px" controls class="video">
         <source src="video.mp4" type="video/mp4">
@@ -38,7 +38,7 @@
     <div class="arrow left" onclick="prevSlide()">❮</div>
     <div class="arrow right" onclick="nextSlide()">❯</div>
 
-</div></center>
+</div></center><br>
 
 <script>
 
@@ -80,11 +80,62 @@ function prevSlide(){
 setInterval(nextSlide,4000);
 
 </script>
+<center>
+<p class="h1">
+We've been together for 
+<span id="days">0</span> days,
+<span id="hours">0</span> hrs,
+<span id="minutes">0</span> mins, and 🎀
 
+<br><br>
+
+🎀 <span id="seconds">0</span> secs ❤️
+</p>
+</center>
+<script>
+    let days = 2055;
+let hours = 16;
+let minutes = 6;
+let seconds = 0;
+
+function updateTimer() {
+
+    seconds++;
+
+    // لو الثواني وصلت 60
+    if(seconds > 60){
+        seconds = 0;
+        minutes++;
+    }
+
+    // لو الدقايق وصلت 60
+    if(minutes > 60){
+        minutes = 0;
+        hours++;
+    }
+
+    // لو الساعات وصلت 24
+    if(hours > 24){
+        hours = 0;
+        days++;
+    }
+
+    document.getElementById("days").innerHTML = days;
+
+    document.getElementById("hours").innerHTML = hours;
+
+    document.getElementById("minutes").innerHTML = minutes;
+
+    document.getElementById("seconds").innerHTML = seconds;
+
+}
+
+setInterval(updateTimer, 1000);
+</script>
+<br><center>
+<a href="index5.html"><button onclick="next()">Next 💕</button></a>
+</center><br>
 </body>
 </html>
-
-
-
 
 

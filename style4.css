@@ -12,7 +12,7 @@ body {
     height: 200px;
     border-radius: 20px;
 }
-h1 {
+.h1 {
     font-family: 'Pacifico', cursive;
     color: #ff5c8a;
     margin-bottom: 20px;
@@ -72,4 +72,18 @@ h1 {
         width: 100%;
         height: 350px;
     }
+}
+button {
+  margin-top: 15px;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 25px;
+  background: #ff5e78;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+button:focus{
+    font-size: 1.2rem;
 }
