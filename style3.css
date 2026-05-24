@@ -3,7 +3,7 @@ body {
   font-family: "Cairo", sans-serif;
   background: linear-gradient(180deg, #ff9aa2, #ffb7b2);
   overflow: hidden;
-  height: 100vh;
+  height: 160vh;
   overflow: auto;
 }
 

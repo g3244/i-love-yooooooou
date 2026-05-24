@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>i love you 💖</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    background: #ff9a9e;
+
+    font-family: 'Cairo', sans-serif;
+
+    overflow: hidden;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    height: 100vh;
+}
+
+.container{
+
+    text-align: center;
+
+    position: relative;
+}
+
+h1{
+
+    color: #d81b78;
+
+    font-size: 55px;
+
+    margin-bottom: 20px;
+
+    opacity: 0;
+
+    transform: translateY(10px);
+
+    transition: 1.5s;
+
+    text-shadow: 0 0 10px rgba(216,27,120,0.3);
+}
+
+p{
+
+    color: #b84f7f;
+
+    font-size: 24px;
+
+    margin: 15px 0;
+
+    opacity: 0;
+
+    transform: translateY(10px);
+
+    transition: 1.5s;
+}
+
+button{
+
+    margin-top: 40px;
+
+    padding: 10px 20px;
+
+    border: none;
+
+    border-radius: 50px;
+    background: #ff5c8a;
+
+    color: white;
+
+    font-size: 24px;
+
+    cursor: pointer;
+
+    box-shadow: 0 0 15px rgba(216,27,120,0.4);
+
+    transition: 0.3s;
+}
+
+button:hover{
+
+    transform: scale(1.05);
+}
+
+.bow{
+
+    position: absolute;
+
+    font-size: 35px;
+
+    animation: float 4s infinite ease-in-out;
+}
+
+.b1{
+    top: -120px;
+    left: -100px;
+}
+
+.b2{
+    top: -150px;
+    right: -90px;
+}
+
+.b3{
+    bottom: -120px;
+    left: -120px;
+}
+
+.b4{
+    bottom: -140px;
+    right: -100px;
+}
+
+@keyframes float{
+
+    0%{
+        transform: translateY(0px);
+    }
+
+    50%{
+        transform: translateY(-15px);
+    }
+
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+    <div class="bow b1">🎀</div>
+    <div class="bow b2">🎀</div>
+    <div class="bow b3">🎀</div>
+    <div class="bow b4">🎀</div>
+
+    <h1 id="title">🎀 على طول 🎀</h1>
+
+    <p id="text1">مهما الدنيا ودتنا فين...</p>
+
+    <p id="text2">هتفضل إنت أغلى حد عندي</p>
+
+    <p id="text3">أماني وبيتي اللي برتاح فيه 🎀</p>
+
+    <button id="btn">🎀 إعادة</button>
+
+</div>
+
+<script>
+
+const title = document.getElementById("title");
+
+const text1 = document.getElementById("text1");
+
+const text2 = document.getElementById("text2");
+
+const text3 = document.getElementById("text3");
+
+setTimeout(() => {
+
+    title.style.opacity = "1";
+    title.style.transform = "translateY(0)";
+
+}, 300);
+
+setTimeout(() => {
+
+    text1.style.opacity = "1";
+    text1.style.transform = "translateY(0)";
+
+}, 900);
+
+setTimeout(() => {
+
+    text2.style.opacity = "1";
+    text2.style.transform = "translateY(0)";
+
+}, 1500);
+
+setTimeout(() => {
+
+    text3.style.opacity = "1";
+    text3.style.transform = "translateY(0)";
+
+}, 2100);
+
+document.getElementById("btn").onclick = () => {
+
+    location.reload();
+};
+
+</script>
+</body>
+</html>
