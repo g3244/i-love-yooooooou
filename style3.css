@@ -9,7 +9,7 @@ body {
 
 /* الكارت */
 .card {
-  margin-top: 12rem;
+  margin-top: 13rem;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -41,6 +41,6 @@ button {
   cursor: pointer;
   transition: 0.5s;
 }
-button:focus{
-    font-size: 1.2rem;
+button:hover{
+    transform: scale(1.05);
 }

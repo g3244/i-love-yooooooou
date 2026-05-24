@@ -76,7 +76,7 @@ button{
 
     margin-top: 40px;
 
-    padding: 10px 20px;
+    padding: 8px 18px;
 
     border: none;
 
@@ -95,7 +95,6 @@ button{
 }
 
 button:hover{
-
     transform: scale(1.05);
 }
 
@@ -113,13 +112,13 @@ button:hover{
 <body>
    <div class="container">
 
-    <h1 id="title">🎀 على طول 🎀</h1>
+    <h1 id="title">🎀 على طول </h1>
 
-    <p id="text1">مهما الدنيا ودتنا فين...</p>
+    <p id="text1">...مهما الدنيا ودتنا فين</p>
 
-    <p id="text2">هتفضل إنت أغلى حد عندي</p>
+    <p id="text2">,هتفضل إنت أغلى حد عنديه</p>
 
-    <p id="text3">أماني وبيتي اللي برتاح فيه 🎀</p>
+    <p id="text3">🎀أماني وبيتي اللي برتاح فيه</p>
 
     <button id="btn">🎀 إعادة</button>
 
@@ -163,10 +162,10 @@ setTimeout(() => {
 
 }, 2100);
 
-document.getElementById("btn").onclick = () => {
-
-    location.reload();
-};
+document.getElementById("btn").onclick = 
+function (){
+    window.location.href = "index.html"
+}
 
 </script>
 </body>

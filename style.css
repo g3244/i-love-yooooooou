@@ -14,7 +14,7 @@ body {
 
 .card {
     background: #fff;
-    padding: 18px;
+    padding: 10px;
     padding-bottom: 40px;
     border-radius: 25px;
     width: 320px;
@@ -28,7 +28,7 @@ h2 {
 }
 
 input {
-    width: 273px;
+    width: 240px;
     padding-top: 12px;
     padding-bottom: 12px;
     border-radius: 25px;
@@ -46,7 +46,7 @@ input:focus {
 }
 
 button {
-    width: 280px;
+    width: 250px;
     padding: 10px;
     margin-left: 4px;
     border: none;
