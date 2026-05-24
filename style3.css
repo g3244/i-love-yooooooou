@@ -1,9 +1,9 @@
 body {
   margin: 0;
   font-family: "Cairo", sans-serif;
-  background: linear-gradient(180deg, #ff9aa2, #ffb7b2);
+  background: linear-gradient(180deg,  #ffb7b2);
   overflow: hidden;
-  height: 160vh;
+  height: 100vh;
   overflow: auto;
 }
 
@@ -21,6 +21,7 @@ body {
   border-radius: 20px;
   text-align: center;
   box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+  border: 2px solid #E96A8D;
 }
 
 .card p {
