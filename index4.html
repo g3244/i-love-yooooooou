@@ -10,14 +10,25 @@
 <body>
     <center><h1 class="h1">🎀Our Memories</h1><br></center>
     <br><center><link rel="stylesheet" href="style4.css">
-    <video width="300px" border="20px" controls class="video">
-        <source src="video.mp4" type="video/mp4">
-    </video></center><br>
+        <div class="video-box">
+        <iframe 
+    class="video"
+    width="300"
+    height="170"
+    loading="lazy"
+    src="https://www.youtube.com/embed/RyWd80WpA34?autoplay=1&mute=1"
+    title="YouTube video player"
+    frameborder="0"
+    allow="autoplay"
+    allowfullscreen>
+</iframe>
+</div>
+<br>
     <script>
         setTimeout(
             function () {
                 alert("بنوتي 🤭 ♥️ 🙈 مش عارف أوصف قد إيه بحبك  بس كل اللي أعرفه إنك أجمل حاجة في حياتي 🤭🥹 🙈 ووجودك بيفرق معايا في كل لحظة 🤭♥️بحبك اوي ابت 🥹♥️🤭")
-            }, 9000);
+            }, 10000);
     </script>
     <script src="script.js"></script>
 
@@ -33,6 +44,10 @@
 
     <div class="slide">
         <img src="img3.jpg">
+    </div>
+    
+    <div class="slide">
+        <img src="img4.jpg">
     </div>
 
     <div class="arrow left" onclick="prevSlide()">❮</div>
@@ -93,9 +108,9 @@ We've been together for
 </p>
 </center>
 <script>
-    let days = 365;
-let hours = 12;
-let minutes = 30;
+    let days = 364;
+let hours = 24;
+let minutes = 60;
 let seconds = 0;
 
 function updateTimer() {
@@ -137,5 +152,3 @@ setInterval(updateTimer, 1000);
 </center><br>
 </body>
 </html>
-
-

@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(180deg,  #ffb7b2);
+    font-family: Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+.vid {
+    width: 400px;
+    height: 330px;
+}

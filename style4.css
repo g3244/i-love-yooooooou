@@ -87,3 +87,22 @@ button {
 button:hover{
     transform: scale(1.05);
 }
+.video{
+    display: block;
+    border-radius: 20px;
+}
+.video-box{
+    width: 320px;
+    height: 205px;
+    background: black;
+    border: 2px solid white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.video{
+    border-radius: 15px;
+}
