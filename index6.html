@@ -6,8 +6,38 @@
     <title>i love you 💖</title>
 </head>
 <body>
-    <link rel="stylesheet" href="style6.css" controls>
-    
+    <link rel="stylesheet" href="style6.css">
+    <div>
+    <center>
+    <video controls class="vid" src="video/vd1.mp4" id="vid"></video>
+    <video controls class="vid" src="video/vd2.mp4" id="vid"></video>
+    <video controls class="vid" src="video/vd3.mp4"></video>
+    <video controls class="vid" src="video/vd4.mp4"></video>
+    <video controls class="vid" src="video/vd5.mp4"></video>
+    <video controls class="vid" src="video/vd6.mp4"></video>
+    <video controls class="vid" src="video/vd7.mp4"></video>
+    <video controls class="vid" src="video/vd8.mp4"></video>
+    <video controls class="vid" src="video/vd9.mp4"></video>
+    <video controls class="vid" src="video/vd10.mp4"></video>
+    <video controls class="vid" src="video/vd11.mp4"></video>
+    <video controls class="vid" src="video/vd12.mp4"></video>
+    <video controls class="vid" src="video/vd13.mp4"></video>
+    <video controls class="vid" src="video/vd14.mp4"></video>
+    <video controls class="vid2" src="video/vd15.mp4"></video>
+    </center>
+    </div>
+    <script>
+let videos = document.querySelectorAll("video");
 
+videos.forEach(video => {
+    video.addEventListener("play", () => {
+        videos.forEach(v => {
+            if (v !== video) {
+                v.pause();
+            }
+        });
+    });
+});
+</script>
 </body>
 </html>

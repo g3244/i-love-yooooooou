@@ -1,12 +1,20 @@
 body {
     margin: 0;
-    height: 100vh;
     background: linear-gradient(180deg,  #ffb7b2);
     font-family: Arial, sans-serif;
     justify-content: center;
     align-items: center;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 .vid {
-    width: 400px;
-    height: 330px;
+    width: 350px;
+    border-radius: 10px;
+    margin-top: 1rem;
+}
+.vid2 {
+    width: 350px;
+    border-radius: 10px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
