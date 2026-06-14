@@ -8,3 +8,4 @@ document.getElementById("btn").onclick
         alert("Wrong password 😢")
     }
 }
+
